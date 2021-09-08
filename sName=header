@@ -1,0 +1,17 @@
+[33mcommit 7b988185ec063b01abf2d512091340de510daf81[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Prathamesh Kulkarni <prathameshvk50@gmail.com>
+Date:   Wed Sep 8 10:25:34 2021 +0530
+
+    init
+
+[33mcommit 37a4252c0c57a797febe562ab6d12bfd3cbb7d78[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Prathamesh Kulkarni <prathameshvk50@gmail.com>
+Date:   Mon Sep 6 17:24:21 2021 +0530
+
+    setup
+
+[33mcommit 1818a9a7cd4d9320bf404a055686b700275fc9f8[m
+Author: Prathamesh Kulkarni <prathameshvk50@gmail.com>
+Date:   Mon Sep 6 17:18:49 2021 +0530
+
+    Initialize project using Create React App
