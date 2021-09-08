@@ -5,7 +5,7 @@ function About() {
     return (
         <StyledAbout>
             <StyledTopDiv>
-                <div className="inner-top-div1">
+                <div>
                     <p>
                         If asked to introduce myself<br/>
                         in one line, I would say,<br/>
@@ -24,7 +24,7 @@ function About() {
                 <div className="inner-bottom-div1">
                     Here is another image
                 </div>
-                <div className="inner-bottom-div2">
+                <div>
                     <p>
                         I love web designing and stuff<br/>
                         <span className="something-else">
@@ -73,11 +73,11 @@ const StyledBottomDiv=styled.div`
     margin: 0 auto;
     p{
         font-size: 1.3rem;
+        text-align: right;
     }
     .something-else{
         font-size: 3rem;
         font-weight: bold;
-        text-align: right;
         .games{
             color: #0083CC;
         }
