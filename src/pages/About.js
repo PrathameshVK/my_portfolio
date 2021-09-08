@@ -56,10 +56,20 @@ margin: 0 auto;
         font-size: 3rem;
         font-weight: bold;
         .artist{
-            color: #FF6FB4;
+            background-image: linear-gradient(135deg, #FF6FB4, #0CD3FF);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            
+            //color: #FF6FB4;
         }
         .programmer{
-            color: #0CD3FF;
+            background-image: linear-gradient(135deg, #0CD3FF,#FF6FB4 );
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            
+            //color: #0CD3FF;
         }
     }
 `
@@ -79,10 +89,21 @@ const StyledBottomDiv=styled.div`
         font-size: 3rem;
         font-weight: bold;
         .games{
-            color: #0083CC;
+            background-image: linear-gradient(45deg, #0083CC,#00BD13 );
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            
+           
+            // color: #0083CC;
         }
         .world{
-            color: #00BD13;
+            background-image: linear-gradient(45deg, #00BD13,#0083CC );
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            
+            //color: #00BD13;
         }
     }
 `

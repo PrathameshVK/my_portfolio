@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import main from '../img/main-bg.png';
+import main from '../img/main.png';
 
 function MainBody() {
     return (
@@ -28,17 +28,21 @@ const StyledMainBody=styled.div`
   padding: 5rem 10rem;
     .myself{
         width: 50%;
-        font-size: 3rem;
+        font-size: 5rem;
         font-weight: bold;
         span{
-            color: #E100E5;
+            background-image: linear-gradient(45deg, #E100E5, #910094);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            //color: #E100E5;
         }
     }
     .image{
-        width: 50%;
+        width: 60%;
     }
     img{
-        width: 80%;
+        width: 90%;
         padding-left: 20%;
     }
 `
